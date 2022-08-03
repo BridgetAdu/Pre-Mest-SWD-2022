@@ -1,0 +1,82 @@
+body{
+    text-align: center;
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+
+}
+
+
+#bdimg{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.main{
+    display: flex;
+     flex-direction: column; 
+    /* background-color: white; */
+}
+
+.Des{
+    background-color: white;
+    width: 400px;
+    margin-left: 440px;
+    margin-top: -5px;
+    height: 400px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  
+}
+
+
+button{
+    background-color: hsl(245, 75%, 52%);
+    color:white;
+    border-radius: 8px;
+    width: 340px;
+    height: 37px;
+    border: none;
+    margin-top: 7px;
+    margin-bottom: 15px;
+    box-shadow: 4px 12px 10px  hsl(228, 24%, 75%); 
+}
+
+.Annua{
+    background-color: hsl(225, 100%, 98%); 
+    display: flex;
+    justify-content: space-around;
+    margin: 35px;
+    border-radius: 10px;
+}
+
+.ch{
+    margin-top: 35px;
+    margin-right: 10px;
+    
+}
+
+h4{
+    margin-right:130px;
+}
+
+.num{
+    margin-top: -15px;
+    margin-right: 130px;
+}
+
+
+p{
+    color: rgb(110, 108, 108);
+    font-weight: 400;
+}
+
+.can{
+    font-weight: bolder;
+}
+
+/* h2{
+    font-weight: bolder;
+    font-style: normal;
+    text-shadow: rgb(51, 49, 49);
+} */
